@@ -16,7 +16,7 @@ var myCharacterList = ['a','0','R','3','#','f','P','x'];
 #### Code
 Using that array we can pass it through as the first parameter, and then specify the minimum and maximum length of the combinations to be generated
 ```javascript
-var generator = require('../generator.js'),
+var generator = require('node_modules/generator.js'),
 	myCombinations = generator(myCharacterList, 1, 2); //1 is the shorted a combo will be, 2 is the longest
 	
 console.log(myCombinations);
