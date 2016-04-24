@@ -1,0 +1,19 @@
+{
+    "name": "combination-generator",
+    "version": "0.1.0",
+    "description": "generates all combinations (or non-unique permutations) of a given list of characters within a range of string length i.e. generate(['a','f','t','6','-','@','T',';'], 2, 4)",
+    "author": "Andy Sharman",
+    "license": "MIT",
+    "preferGlobal": true,
+    "homepage": "https://github.com/udjamaflip/combination-generator",
+    "repository": "https://github.com/udjamaflip/combination-generator.git",
+    "bin": {
+        "generate-combos": "bin/cli.js"
+    },
+    "keywords": [
+        "combinations",
+        "generator",
+        "string",
+        "permutations"
+    ]
+}
